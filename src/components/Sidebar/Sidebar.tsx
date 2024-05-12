@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import cls from './Sidebar.module.scss'
 import { Tabs } from '../Tabs/Tabs'
 import { DropDown } from '../DropDown/DropDown'

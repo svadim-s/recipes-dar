@@ -1,4 +1,4 @@
-import React, { memo } from 'react'
+import { memo } from 'react'
 import Card from '../Card/Card'
 import cls from './CardList.module.scss'
 import { IRecipe } from '../../common/models/IRecipe'

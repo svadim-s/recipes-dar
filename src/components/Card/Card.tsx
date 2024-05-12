@@ -1,4 +1,4 @@
-import React, { memo } from 'react'
+import { memo } from 'react'
 import TimerIcon from '../../assets/Timer.svg'
 import StarIcon from '../../assets/star.svg'
 

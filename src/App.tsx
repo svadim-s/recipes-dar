@@ -1,6 +1,4 @@
 import { Route, Routes } from 'react-router-dom'
-// import MainPage from './pages/MainPage/ui/MainPage'
-// import RecipeDetailsPage from './pages/RecipeDetailsPage/ui/RecipeDetailsPage'
 import { MainPage } from './pages/MainPage'
 import { RecipeDetailsPage } from './pages/RecipeDetailsPage'
 import { Suspense } from 'react'
