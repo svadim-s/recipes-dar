@@ -1,0 +1,60 @@
+.TimeLine {
+  padding: 24px 30px;
+  background-color: #fff;
+  height: calc(100% - 56px);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.list::after {
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.06);
+  margin-left: 4px;
+  z-index: 1;
+  position: absolute;
+} 
+
+.step {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 2px solid #1890FF;
+  position: relative;
+  z-index: 4;
+}
+
+.circle::after {
+  content: "";
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  z-index: 3;
+}
+
+.list {
+  list-style-type: circle;
+}
+
+.text {
+  font-size: var(--font-size-14);
+  font-weight: 400;
+  width: 100%;
+  line-height: 22px;
+}

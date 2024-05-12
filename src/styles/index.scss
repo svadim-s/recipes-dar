@@ -1,0 +1,35 @@
+@import "reset";
+@import "variables/global";
+
+:root {
+  font-family: var(--font-family-main);
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #EFEFEF;
+
+  /* Cтили для пагинации */
+  .ant-pagination-item {
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    height: 32px;
+    width: 32px;
+  }
+
+  /* Стили для активного элемента пагинации */
+  .ant-pagination-item-active {
+    border-color: #1890FF;
+  }
+
+  .ant-pagination-prev {
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    height: 32px;
+    width: 32px;
+  }
+
+  .ant-pagination-next {
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    height: 32px;
+    width: 32px;
+  }
+}

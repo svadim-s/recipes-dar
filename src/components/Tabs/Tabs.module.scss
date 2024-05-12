@@ -1,0 +1,47 @@
+.Tabs {
+  display: flex;
+  flex-direction: row;
+}
+
+.radio {
+  width: 72px;
+  height: 40px;
+  border: 1px solid #D9D9D9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.radio:first-of-type {
+  border-radius: 2px 0 0 2px;
+}
+
+.radio:last-child {
+  border-radius: 0 2px 2px 0;
+}
+
+.label {
+  font-size: var(--font-size-14);
+  font-weight: 400;
+  cursor: pointer;
+  user-select: none;
+}
+
+.radioInput {
+  display: none;
+}
+
+.checked {
+  background-color: #1890FF;
+  color: white;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.radio.disabled .label {
+  cursor: not-allowed;
+  opacity: 0.2;
+}

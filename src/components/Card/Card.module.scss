@@ -1,0 +1,85 @@
+.Card {
+  width: 452px;
+  height: 354px;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid #F0F0F0;
+  display: flex;
+}
+
+.cardMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 226px;
+}
+
+.title {
+  margin: 14px 24px;
+  font-size: var(--font-size-16);
+  font-weight: 500;
+}
+
+.imageWrapper {
+  position: relative;
+  height: 294px;
+  overflow: hidden;
+}
+
+.image {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.description {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.textInfo {
+  font-size: var(--font-size-10);
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.45);
+  line-height: 11.72px;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.timeText {
+  font-size: var(--font-size-12);
+  font-weight: 400;
+}
+
+.difficulty {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.difficultyText {
+  font-size: var(--font-size-12);
+  font-weight: 400;
+}
+
+.cuisineText {
+  font-size: var(--font-size-12);
+  font-weight: 400;
+}
+
+.mealTypeText {
+  font-size: var(--font-size-12);
+  font-weight: 400;
+}

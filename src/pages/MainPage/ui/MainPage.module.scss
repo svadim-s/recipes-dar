@@ -1,0 +1,29 @@
+.MainPage {
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.header {
+  height: 72px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.text {
+  font-weight: 500;
+  line-height: 28px;
+  font-size: var(--font-size-24);
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  height: 852px;
+}
